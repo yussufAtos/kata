@@ -1,11 +1,13 @@
 package com.kata.services;
 
-import com.kata.dto.DeliveryDto;
+import com.kata.dto.SlotsDto;
+import com.kata.dto.DeliveryRequest;
+import com.kata.entities.DeliveryEnum;
 
 public interface DeliveryService {
 
-	void createDeliveryModeWithTime(DeliveryDto deliveryDto);
+	void createDelivery(DeliveryRequest deliveryType);
 
-	void createDelivery(DeliveryDto deliveryDto);
+	void createSlotsForDelivery(Long deliveryId, SlotsDto deliveryDto);
 
 }

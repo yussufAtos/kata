@@ -4,6 +4,6 @@ import java.util.Set;
 
 import com.kata.entities.DeliveryEnum;
 
-public record DeliveryDto(DeliveryEnum deliveryEnum, Set<TimeDeliveryDto> timeSlots) {
+public record SlotsDto(Set<TimeDeliveryDto> timeSlots) {
 
 }

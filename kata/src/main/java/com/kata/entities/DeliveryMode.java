@@ -1,9 +1,6 @@
 package com.kata.entities;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Set;
-
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -58,8 +55,5 @@ public class DeliveryMode {
 	public void setTimeSlots(Set<DeliveryTime> timeSlots) {
 		this.timeSlots = timeSlots;
 	}
-
-
-
 
 }

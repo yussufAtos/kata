@@ -10,8 +10,7 @@ import com.kata.entities.DeliveryEnum;
 
 public interface ClientService {
 
-	void saveClient(ClientDto clientDto);
-	// void saveClientDelivery(Long customerId, DeliveryEnum deliveryEnum);
-	void saveClientDelivery(Long clientId, DeliveryEnum type, LocalDate date, LocalTime houre);
-	Optional<Client>  getClientById(Long id);
+	void createClient(ClientDto clientDto);
+	void createClientBooking(Long clientId, DeliveryEnum type, LocalDate date, LocalTime houre);
+
 }

@@ -15,7 +15,7 @@ import com.kata.entities.DeliveryMode;
 import com.kata.entities.DeliveryEnum;
 
 @SpringBootApplication
-public class KataDeliveryApplication implements ApplicationRunner {
+public class KataDeliveryApplication  {
 
 	public static void main(String[] args) {
 		SpringApplication.run(KataDeliveryApplication.class, args);
